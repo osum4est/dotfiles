@@ -13,3 +13,10 @@ Here are my beautiful .files
 	* sudo npm -g install instant-markdown-d
 * vim
 	* :PluginInstall
+
+#### Fonts
+* Put in .fonts
+	* https://github.com/supermarin/YosemiteSanFranciscoFont
+	* https://github.com/FortAwesome/Font-Awesome
+* Install from pacman
+	* ttf-inconsolata

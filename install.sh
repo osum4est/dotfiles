@@ -2,15 +2,6 @@
 
 DOTDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-echo "These configs need the following:"
-echo "* i3"
-echo "* i3blocks"
-echo "* tmux"
-echo "* vim"
-echo "* URxvt"
-echo "* zsh"
-echo
-
 # Reset Current Files
 rm -f ~/.config/i3/config
 rm -f ~/.config/i3/i3blocks.conf
@@ -31,6 +22,4 @@ ln -s ${DOTDIR}/Xresources ~/.Xresources
 ln -s ${DOTDIR}/zshrc ~/.zshrc
 echo "Linked new files"
 
-echo "NOTES:"
-echo "vim: Run ':PluginInstall'"
-echo "vim: instant-markdown: npm -g install instant-markdown-d, install xdg-utils"
+echo "Please read readme for further installation!"
