@@ -43,3 +43,8 @@ colorscheme monokai
 " let g:neocomplete#enable_at_startup = 1
 
 " autocmd FileType typescript setlocal omnifunc=TSScompleteFunc
+
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab

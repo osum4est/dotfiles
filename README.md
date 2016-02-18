@@ -9,6 +9,8 @@ Here are my beautiful .files
 * ./install.sh
 
 #### Vim
+* Vundle
+	* git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 * vim-instant-markdown
 	* sudo npm -g install instant-markdown-d
 * vim
@@ -20,3 +22,18 @@ Here are my beautiful .files
 	* https://github.com/FortAwesome/Font-Awesome
 * Install from pacman
 	* ttf-inconsolata
+
+#### i3
+* Highly recommend:
+	* feh (uses picture from ~/)
+	* compton
+	* xrdb
+	* urxvt
+	* rofi
+* Optional
+	* chromium
+	* spotify
+	* virtualbox
+
+#### Chromium
+	* set font to SNFS Display in settings

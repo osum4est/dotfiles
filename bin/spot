@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+
+import dbus
+import sys
+
+bus = dbus.SessionBus()
+
+proxy = bus.get_object("org.mpris.MediaPlayer2.spotify", "/org/mpris/MediaPlayer2")
+
+metadata = proxy.Get('org.mpris.MediaPlayer2.Player', 'Metadata', dbus_interface='org.freedesktop.DBus.Properties')
+
+for arg in sys.argv:
+    if arg == '-t':
+        print(metadata['xesam:title'])
+    elif arg == '-a':
+        print(metadata['xesam:artist'][0])
+    elif arg == '-b':
+        print(metadata['xesam:album'])
+    
+

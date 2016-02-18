@@ -1,0 +1,32 @@
+#!/bin/bash
+
+build_client() 
+{
+	echo "Building client..."
+	cd ~/programming/battle-snake-client
+	tsc
+}
+
+build_server() 
+{
+	echo "Building server..."
+	cd ~/programming/battle-snake-server
+	tsc
+    pkill node
+}
+
+if [ $1 = 'c' ]; then
+	build_client
+elif [ $1 = 's' ]; then
+	build_server
+elif [ $1 = 'cs' ] || [ $1 = 'sc' ]; then
+	build_client
+	build_server
+else
+	echo "Error: incorrect options"
+	exit -1
+fi
+
+echo "Done!"
+
+exit
