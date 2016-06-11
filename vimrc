@@ -17,6 +17,8 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Shougo/unite.vim'
 Plugin 'suan/vim-instant-markdown'
+Plugin 'jaxbot/browserlink.vim'
+Plugin 'davidhalter/jedi-vim'
 call vundle#end()
 filetype plugin indent on
 
