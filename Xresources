@@ -5,7 +5,7 @@ URxvt*scrollBar: false
 
 
 
-URxvt*font: xft:Inconsolata:pixelsize=16
+URxvt*font: xft:Monaco:pixelsize=22
 URxvt*internalBorder: 15
 
 

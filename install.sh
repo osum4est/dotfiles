@@ -16,6 +16,7 @@ fi
 # Reset Current Files
 rm -f ~/.config/i3/config
 rm -f ~/.config/i3/i3blocks.conf
+rm -f ~/.config/dunst/dunstrc
 rm -f ~/.tmux.conf
 rm -f ~/.vimrc
 rm -f ~/.xinitrc
@@ -27,6 +28,7 @@ echo "Reset current files"
 # Link New Files
 ln -s ${DOTDIR}/config/i3/config ~/.config/i3/config
 ln -s ${DOTDIR}/config/i3/i3blocks.conf ~/.config/i3/i3blocks.conf
+ln -s ${DOTDIR}/config/dunst/dunstrc ~/.config/dunst/dunstrc
 ln -s ${DOTDIR}/tmux.conf ~/.tmux.conf
 ln -s ${DOTDIR}/vimrc ~/.vimrc
 ln -s ${DOTDIR}/xinitrc ~/.xinitrc

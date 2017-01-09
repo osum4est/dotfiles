@@ -34,6 +34,12 @@ Here are my beautiful .files
 	* chromium
 	* spotify
 	* virtualbox
+    * gpmdp
 
 #### Chromium
 	* set font to SNFS Display in settings
+
+#### Other
+    * install playerctl from aur for music control
+    * install dunst for notifications
+    * install xorg-xbacklight for backlight control
