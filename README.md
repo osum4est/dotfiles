@@ -17,7 +17,7 @@ Here are my beautiful .files
 	* :PluginInstall
 
 #### Fonts
-* Put in .fonts
+* Put in .local/fonts
 	* https://github.com/supermarin/YosemiteSanFranciscoFont
 	* https://github.com/FortAwesome/Font-Awesome
 * Install from pacman
