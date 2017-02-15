@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+
+import subprocess
+import sys
+import json
+
+metadata = subprocess.Popen("playerctl metadata".split(), stdout=subprocess.PIPE).communicate()
+metadata = json.load(metadata[0])
+
+for arg in sys.argv:
+    if arg == '-t':
+        print(metadata['xesam:title'])
+    elif arg == '-a':
+        print(metadata['xesam:artist'][0])
+    elif arg == '-b':
+        print(metadata['xesam:album'])
+

@@ -1,0 +1,3 @@
+ --language-force=java -f .tags gdrive/ultimate-dungeon-master/core/src/com/eightbitforest/ultimatedungeonmaster/
+ctags -R --language-force=java -f ~/.tags gdrive/ultimate-dungeon-master/core/src/com/eightbitforest/ultimatedungeonmaster/
+
