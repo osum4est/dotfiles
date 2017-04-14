@@ -19,6 +19,7 @@ rm -f ~/.config/i3/i3blocks.conf
 rm -f ~/.config/dunst/dunstrc
 rm -f ~/.tmux.conf
 rm -f ~/.vimrc
+rm -f ~/.emacs
 rm -f ~/.xinitrc
 rm -f ~/.Xresources
 rm -f ~/.zshrc
@@ -31,6 +32,7 @@ ln -s ${DOTDIR}/config/i3/i3blocks.conf ~/.config/i3/i3blocks.conf
 ln -s ${DOTDIR}/config/dunst/dunstrc ~/.config/dunst/dunstrc
 ln -s ${DOTDIR}/tmux.conf ~/.tmux.conf
 ln -s ${DOTDIR}/vimrc ~/.vimrc
+ln -s ${DOTDIR}/emacs ~/.emacs
 ln -s ${DOTDIR}/xinitrc ~/.xinitrc
 ln -s ${DOTDIR}/Xresources ~/.Xresources
 ln -s ${DOTDIR}/zshrc ~/.zshrc
